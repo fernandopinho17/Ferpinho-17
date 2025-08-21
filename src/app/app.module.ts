@@ -4,7 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DescricaoComponent } from './components/container/descricao/descricao.component';
-import { FullStackComponent } from './components/container/full-stack/full-stack.component';
 import { ExperienciaProfissionalComponent } from './components/container/experiencia-profissional/experiencia-profissional.component';
 import { FerramentasComponent } from './components/container/ferramentas/ferramentas.component';
 import { ContainerComponent } from './components/container/container.component';
@@ -16,7 +15,6 @@ import { Projectos } from './components/container/projectos/projectos';
   declarations: [
     AppComponent,
     DescricaoComponent,
-    FullStackComponent,
     ExperienciaProfissionalComponent,
     FerramentasComponent,
     ContainerComponent,
