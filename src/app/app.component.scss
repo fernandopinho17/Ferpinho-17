@@ -1,0 +1,51 @@
+
+
+/* HEADER ocupa toda a largura da tela */
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: rgb(255, 253, 253);
+  //box-shadow: 0 4px 5px -2px rgba(0, 0, 0, 0.2);
+}
+
+/* Container interno alinhado com o seu padrão de layout */
+.container-interno {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (min-width: 1024px) {
+    padding: 0 40px;
+  }
+}
+
+/* Itens do menu */
+#menu-navegacao {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Logo */
+.fs-4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center !important;
+}
+
+#footer{
+  background-color: black;
+  color: white !important;
+}

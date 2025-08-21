@@ -1,0 +1,38 @@
+.featurette-divider {
+  margin: 2rem 0;
+  border-top: 1px solid #eee;
+}
+
+.featurette-heading {
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.featurette-heading .text-body-secondary {
+  display: block;
+  font-size: 1.5rem;
+  color: #6c757d;
+  margin-top: 0.5rem;
+}
+
+p.lead {
+  font-size: 1.25rem;
+  color: #444;
+}
+
+.featurette-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .featurette-heading {
+    font-size: 2rem;
+  }
+
+  p.lead {
+    font-size: 1.1rem;
+  }
+}

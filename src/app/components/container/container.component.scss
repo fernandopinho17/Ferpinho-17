@@ -1,0 +1,16 @@
+:host {
+  display: block;
+  width: 100%;
+  max-width: 1200px;   // largura máxima para desktops
+  margin: 0 auto;      // centraliza o conteúdo
+  padding: 0 16px;     // margem lateral no mobile
+  box-sizing: border-box;
+  overflow-x: hidden;  // previne scroll horizontal
+}
+
+@media (min-width: 1024px) {
+  :host {
+    padding: 0 40px;  // aumenta margem lateral no desktop
+  }
+}
+

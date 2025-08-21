@@ -1,0 +1,38 @@
+section {
+  padding: 2rem 1rem;
+  background-color: #f9f9f9;
+}
+
+.org {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.org h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.ferramentas {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+}
+
+.ferramentas img {
+  width: 100%;
+  height: 200px;               /* Altura fixa */
+  object-fit: cover;           /* Corta e centraliza a imagem */
+  display: block;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Responsivo para telas menores */
+@media (max-width: 768px) {
+  .ferramentas {
+    grid-template-columns: 1fr;
+  }
+}

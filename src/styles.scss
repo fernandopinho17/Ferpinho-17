@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+/** {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: rgb(96, 98, 100);
+}*/
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; // Bloqueia scroll lateral em toda a página
+}
+
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
